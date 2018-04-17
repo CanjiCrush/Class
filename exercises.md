@@ -18,7 +18,7 @@ int main()
 
   for (int i = 0; i < NUMBER_OF_ELEMENTS; i++)
   {
-    cout << "Enter a new number: ";
+    cout << "輸入一個數字: ";
     cin >> numbers[i];
     sum += numbers[i];
     numbers_squared[i]=numbers[i]*numbers[i];
@@ -58,10 +58,13 @@ int fun(int array[3][3])
 		}
 		return 0;
 }
+
+//4/17 上課作業 
+
 int main()
 {
 	int i,j;
-	int array[3][3]={{1,2,3},{4,5,6},{7,8,9}};
+	int array[3][3]={{2,3,4},{4,5,6},{5,6,7}};
 	cout << "Converted Front" <<endl;
 	for(i=0;i<3;i++)
 	{
