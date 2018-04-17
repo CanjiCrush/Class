@@ -23,8 +23,8 @@ int main()
     sum += numbers[i];
     numbers_squared[i]=numbers[i]*numbers[i];
   }
-  cout << "最大數為：" << numbers[1] << endl;
-  cout << "最大數平方為" << numbers_squared[1] << endl;
+  cout << "第二數為：" << numbers[1] << endl;
+  cout << "第二數平方為" << numbers_squared[1] << endl;
   
   double average = sum / NUMBER_OF_ELEMENTS;
 
@@ -33,7 +33,7 @@ int main()
     if (numbers[i] > average)
       count++;
 
-  cout << "Average is " << average << endl;
+  cout << "平均為：" << average << endl;
   cout << "Number of elements above the average " << count << endl;
   system("pause"); 
   return 0;
