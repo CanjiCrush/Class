@@ -42,6 +42,7 @@ int main()
 ```
 Exercises.2:(2018/4/17)
 ```
+(參考老師上課之內容!)
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -78,6 +79,11 @@ int main()
 	}
     return 0;
 }
+```
+
+```
+程式功用:
+先在程式碼中輸入指定數字，程式執行後，會將指定的各行數字，轉換為各列數字。
 ```
 Exercises.1
 Exercises.1
