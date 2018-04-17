@@ -23,8 +23,8 @@ int main()
     sum += numbers[i];
     numbers_squared[i]=numbers[i]*numbers[i];
   }
-  cout << "numbers[1] is " << numbers[1] << endl;
-  cout << "numbers_squared[1] is " << numbers_squared[1] << endl;
+  cout << "最大數為：" << numbers[1] << endl;
+  cout << "最大數平方為" << numbers_squared[1] << endl;
   
   double average = sum / NUMBER_OF_ELEMENTS;
 
