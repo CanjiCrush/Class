@@ -35,7 +35,6 @@ int main()
   return 0;
 }
 
-
 說明:
 numbers_squared[i]=numbers[i]*numbers[i];
 Exercises.1
