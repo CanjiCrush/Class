@@ -1,6 +1,6 @@
 Exercises.1
 ```
-![result](Class/PIC/EX1.PNG)
+
 ```
 Exercises.1
 Exercises.1
