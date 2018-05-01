@@ -218,7 +218,32 @@ cout << s4 << endl;
 
 
 
-Exercises.1
+Exercises.6:從螢幕輸入姓名學號要顯示姓名學號(2018/5/1)
+```
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+  string  Name;
+cout << "輸入你的名字: ";
+getline(cin,  Name, '\n');
+cout << "你輸入的是 " << Name << endl;
+
+string  ID;
+cout << "輸入你的學號: ";
+getline(cin,  ID, '\n');
+cout << "你輸入的是 " << ID << endl;
+  return 0;
+}
+```
+## 結果:
+
+![結果](/PIC/EX6.PNG "結果")
+
+
+
 Exercises.1
 Exercises.1
 Exercises.1
