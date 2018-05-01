@@ -88,7 +88,21 @@ int main()
 程式功用:
 先在程式碼中輸入指定數字，程式執行後，會將指定的各行數字，轉換為各列數字。
 ```
-Exercises.1
+Exercises.3(2018/5/1)
+```
+(參考老師上課之內容!)
+#include<iostream>
+using namespace std;
+int main()
+{
+	char c1,c2;
+	c1='a';
+	c2='b'; 
+	int i1,i2;
+	printf("%c,%d\n%c,%d",c1,c1,c2,c2);
+     return 0;
+}
+```
 Exercises.1
 Exercises.1
 Exercises.1
