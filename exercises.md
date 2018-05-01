@@ -180,6 +180,13 @@ int main()
 
 Exercises.5:String類別(2018/5/1)
 ```
+s1：將s字串附加於this字串物件。[+append(s: string): string]
+s2：將s字串的index位置開始n個字元，附加於this字串上。[+append(s: string, index: int, n: int): string]
+s3：將s字串的前n個字元，附加於this字串上。[+append(s: string, n: int): string]
+s4：將ch字元拷貝n次，然後附加於this字串。[+append(n: int, ch: char): string]
+(參考教科書之內容!)
+```
+```
 (參考老師上課之內容!)
 #include <iostream>
 using namespace std;
