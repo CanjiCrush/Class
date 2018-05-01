@@ -181,7 +181,38 @@ int main()
 ![結果](/PIC/EX4.PNG "結果")
 
 
-Exercises.1
+Exercises.5:String類別(2018/5/1)
+```
+#include <iostream>
+using namespace std;
+
+
+
+int main()
+{
+string s1("Welcome");
+s1.append(" to CPP"); 
+cout << s1 << endl; 
+
+string s2("Welcome");
+s2.append(" to C and Cpp", 3,10); 
+cout << s2 << endl;
+
+string s3("Welcome");
+s3.append(" to C and Cpp", 13); 
+cout << s3 << endl; 
+
+string s4("Welcome"); 
+s4.append(14, 'F'); 
+cout << s4 << endl; 
+} 
+```
+## 結果:
+
+![結果](/PIC/EX5.PNG "結果")
+
+
+
 Exercises.1
 Exercises.1
 Exercises.1
