@@ -99,12 +99,9 @@ int main()
 ![結果](/PIC/EX2.PNG "結果")
 
 
-Exercises.3(2018/5/1)
+Exercises.3:球型計算(2018/5/1)
 ```
-球形計算。
 (參考老師上課之內容!)
-```
-```
 #include <iostream>
 using namespace std;
 
@@ -183,6 +180,7 @@ int main()
 
 Exercises.5:String類別(2018/5/1)
 ```
+(參考老師上課之內容!)
 #include <iostream>
 using namespace std;
 
