@@ -176,6 +176,11 @@ int main()
      return 0;
 }
 ```
+## 結果:
+
+![結果](/PIC/EX4.PNG "結果")
+
+
 Exercises.1
 Exercises.1
 Exercises.1
