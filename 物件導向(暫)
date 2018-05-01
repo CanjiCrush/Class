@@ -1,0 +1,51 @@
+#ifndef _BALL_H_
+#define _BALL_H_
+
+class Ball
+{
+	public:
+		double r;
+		Ball();
+		Ball(double);
+		double getArea();
+};
+
+#endif
+Ball.cpp
+#include "Ball.h"
+
+double r;
+
+Ball::Ball()
+{
+	r=1;
+}
+
+Ball::Ball(double newR)
+{
+	r=newR;
+}
+
+double Ball::getArea()
+{
+	return r*r*3.14159;
+}
+main.cpp
+#include <iostream>
+#include "Ball.h"
+using namespace std;
+
+int main(void)
+{
+	Ball ball1;
+	Ball ball2(5.0);
+
+	cout << "The area of the ball of radius "<< ball1.r << " is " << ball1.getArea() << endl;
+	cout << "The area of the ball of radius "<< ball2.r << " is " << ball2.getArea() << endl;
+	ball2.r = 100;
+
+	cout << "The area of the ball of radius "<< ball2.r << " is " << ball2.getArea() << endl;
+
+	system("pause");
+	return 0;
+}
