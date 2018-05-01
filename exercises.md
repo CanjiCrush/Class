@@ -90,6 +90,62 @@ int main()
 ```
 Exercises.3(2018/5/1)
 ```
+球形計算。
+(參考老師上課之內容!)
+```
+```
+#include <iostream>
+using namespace std;
+
+class Ball
+{
+public:
+  // The radius of this circle
+  double radius;
+
+  // Construct a default circle object
+  Ball()
+  {
+    radius = 1;
+  }
+
+  // Construct a circle object
+  Ball(double newRadius)
+  {
+    radius = newRadius;
+  }
+
+  // Return the area of this circle
+  double getArea()
+  {
+    return 4*radius * radius * 3.14159;
+  }
+};  // Must place a semicolon here
+
+int main()
+{
+  Ball Ball1(1.0);
+  Ball Ball2(25);
+  Ball Ball3(125);
+  
+
+  cout << "The spherical of the Ball of radius "
+    << Ball1.radius << " is " << Ball1.getArea() << endl;
+  cout << "The spherical of the Ball of radius "
+    << Ball2.radius << " is " << Ball2.getArea() << endl;
+  cout << "The spherical of the Ball of radius "
+    << Ball3.radius << " is " << Ball3.getArea() << endl;
+
+  // Modify circle radius
+  Ball2.radius = 100;
+  cout << "The spherical of the Ball of radius "
+    << Ball2.radius << " is " << Ball2.getArea() << endl;
+
+  return 0;
+}
+```
+Exercises.4(2018/5/1)
+```
 (參考老師上課之內容!)
 #include<iostream>
 using namespace std;
@@ -103,7 +159,6 @@ int main()
      return 0;
 }
 ```
-Exercises.1
 Exercises.1
 Exercises.1
 Exercises.1
