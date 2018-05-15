@@ -26,35 +26,35 @@ using namespace std;
 
 int main()
 {
-	// various constructor建構子 of string class不同的建構子
+	// various constructor (建構子) of string class (不同的建構子)
 
 	// initialization by raw string
-	string str1("first string");
+	string str1("first string"); 在第一個字串中放入 first string
 
-	// initialization by another string//使用字串物件
-	string str2(str1);
+	// initialization by another string  //使用字串物件
+	string str2(str1); 在第二個字串中放入物件第一字串=first string
 
 	// initialization by character with number of occurence
-	string str3(5, '#');
+	string str3(5, '#'); 在第三字串中放入指定數值5，指定字元#
 
 	// initialization by part of another string
-	string str4(str1, 6, 6); // from 6th index (second parameter)
+	string str4(str1, 6, 3); // from 6th index (second parameter) 在第四字串中放入指令，此指令為從第一字串的第六個字元開始取3位
 							// 6 characters (third parameter)
 
 	// initialization by part of another string : iteartor version
-	string str5(str2.begin(), str2.begin() + 5);
+	string str5(str2.begin(), str2.begin() + 5); 在第五字串中放入指令，此指令為從第二字串第一個字元開始取5位
 
-	cout << str1 << endl;  //會輸出 first string
+	cout << str1 << endl;  // 會輸出 first string
 	cout << str2 << endl;  // 會輸出 first string
 	cout << str3 << endl;  // 會輸出 #####
-	cout << str4 << endl;
-	cout << str5 << endl;
+	cout << str4 << endl;  // 會輸出 str
+	cout << str5 << endl;  // 會輸出 first
 
 	// assignment operator
-	string str6 = str4;
+	string str6 = str4; // 會計算第四字串之內容的總長度
 
 	// clear function deletes all character from string
-	str4.clear();
+	str4.clear(); // 會將第四字串之內容清除以#呈現
 
 	// both size() and length() return length of string and
 	// they work as synonyms
