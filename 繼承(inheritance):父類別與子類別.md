@@ -4,39 +4,39 @@
 ```
 #include "GeometricObject.h"
 
-________::GeometricObject()
+________::GeometricObject() --> GeometricObject
 {
   color = "white";
   filled = false;
 }
 
-________::GeometricObject(const string& color, bool filled)
+________::GeometricObject(const string& color, bool filled) --> GeometricObject
 {
-  this->color = ________;
-  ________->filled = filled;
+  this->color = ________; --> color
+  ________->filled = filled; -->this
 }
 
-________ GeometricObject::getColor() const
+________ GeometricObject::getColor() const  --> string
 {
-  return ________;
+  return ________; --> color
 }
 
-________ GeometricObject::setColor(const string& color)
+________ GeometricObject::setColor(const string& color) --> void
 {
-  ________ = color;
+  ________ = color; --> this->color
 }
 
-________ GeometricObject::isFilled() const
+________ GeometricObject::isFilled() const --> bool
 {
-  return ________;
+  return ________; --> filled
 }
 
-________ GeometricObject::setFilled(bool filled)
+________ GeometricObject::setFilled(bool filled) --> void
 {
-  ________ = filled;
+  ________ = filled; --> this->filled
 }
 
-________ ________::toString() const
+________ ________::toString() const --> string GeometricObject
 {
   return "Geometric Object";
 }
@@ -47,11 +47,11 @@ ________ ________::toString() const
 ```
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
-#________ "GeometricObject.h"
+#________ "GeometricObject.h" --> include
 
-________ Rectangle: ________ GeometricObject
+________ Rectangle: ________ GeometricObject --> class 、 public
 {
-________:
+________: --> public
   Rectangle();
   Rectangle(_______,_________);
   Rectangle(_______,_________,_________,_____);
